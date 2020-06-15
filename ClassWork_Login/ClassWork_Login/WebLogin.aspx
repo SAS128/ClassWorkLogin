@@ -4,30 +4,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+     <link rel="stylesheet" href="Style.css" />
 </head>
+
 <body>
     <form id="form1" runat="server">
        <div>
-            <h1>Hello world!</h1>
-            <p>Регайся!</p>
+            <h1>Регестрация</h1>
         </div>
         <asp:ValidationSummary ID="validationSummary" runat="server" ShowModelStateErrors="true" />
         <div>
-            <label>Ваше имя:</label><input type="text" id="name" runat="server"/>
+            <label>Логин:</label><input type="text" id="login" runat="server"/>
         </div>
         <div>
-            <label>Ваше email:</label><input type="text" id="email" runat="server"/>
+            <label>Пароль:</label><input type="text" id="password" runat="server"/>
         </div>
         <div>
-            <label>Ваш телефон:</label><input type="text" id="phone" runat="server"/>
+            <label>Телефон:</label><input type="text" id="phone" runat="server"/>
         </div>
-        <div>
-            <label>Собираетесь быть?</label>
-            <select id="willattend" runat="server">
-                <option value="">Не знаю точно</option>
-                <option value="true">Да</option>
-                <option value="false">Нет</option>
-            </select>
+     <div>
+            <label>Email:</label><input type="text" id="email" runat="server"/>
         </div>
         <div>
             <button type="submit">Подтвердить</button>

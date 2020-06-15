@@ -1,13 +1,9 @@
 ﻿body {
-    background-color: burlywood;
-}
-
-#phone {
-    background-color: aqua;
+    background: url(https://www.litorehotel.com/web/ru/images/placeholders/1920x1200-0.jpg) no-repeat center center fixed;
 }
 
 label {
-    color: yellow;
+    color: black;
 }
 
 table, td, th {
@@ -21,4 +17,11 @@ table, td, th {
 
 #validationSummary {
     color: rebeccapurple;
+}
+#form1 {
+    color: black;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 47%;
+    background-color: white;
 }

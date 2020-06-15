@@ -33,22 +33,22 @@ namespace ClassWork_Login
         protected global::System.Web.UI.WebControls.ValidationSummary validationSummary;
 
         /// <summary>
-        /// name control.
+        /// login control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText name;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText login;
 
         /// <summary>
-        /// email control.
+        /// password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText email;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText password;
 
         /// <summary>
         /// phone control.
@@ -60,12 +60,12 @@ namespace ClassWork_Login
         protected global::System.Web.UI.HtmlControls.HtmlInputText phone;
 
         /// <summary>
-        /// willattend control.
+        /// email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect willattend;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText email;
     }
 }
