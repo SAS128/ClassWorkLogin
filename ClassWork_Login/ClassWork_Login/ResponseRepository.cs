@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebApplication1
+namespace ClassWork_Login
 {
     //CRUD
     //Creating Reading Updating Deleting

@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <form id="form1" runat="server">
-       <div>
+    <form id="responsesform" runat="server">
+        <div>
             <h1>Регестрация</h1>
         </div>
         <asp:ValidationSummary ID="validationSummary" runat="server" ShowModelStateErrors="true" />
@@ -22,7 +22,7 @@
         <div>
             <label>Телефон:</label><input type="text" id="phone" runat="server"/>
         </div>
-     <div>
+        <div>
             <label>Email:</label><input type="text" id="email" runat="server"/>
         </div>
         <div>

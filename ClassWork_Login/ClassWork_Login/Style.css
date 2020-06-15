@@ -16,9 +16,9 @@ table, td, th {
 }
 
 #validationSummary {
-    color: rebeccapurple;
+    color: black;
 }
-#form1 {
+#responsesform {
     color: black;
     margin-top: 2%;
     margin-left: 35%;
