@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Style.css" />
 </head>
 <body>
-   <h2>Гости</h2>
+   <h2>Мойка</h2>
     <table>
         <thead>
             <tr>

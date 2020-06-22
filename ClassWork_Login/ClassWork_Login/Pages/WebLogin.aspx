@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-     <link rel="stylesheet" href="Style.css" />
+     <link rel="stylesheet" href="../Style.css" />
 </head>
 
 <body>
@@ -32,7 +32,7 @@
             <label>Номер машины:</label><input type="text" id="carnumber" runat="server"/>
         </div>
           <div>
-            <label>Причина поломки:</label><input type="text" id="сarеrable" runat="server"/>
+            <label>Причина поломки:</label><input type="text" id="cartable" runat="server"/>
         </div>
         <div>
               <label>Выберете мастера</label>

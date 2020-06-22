@@ -14,7 +14,7 @@ namespace ClassWork_Login
         {
             if (IsPostBack)
             {
-                        Response.Redirect("WebTable.aspx");
+                Response.Redirect("WebTable.aspx");
             }
         }
     }

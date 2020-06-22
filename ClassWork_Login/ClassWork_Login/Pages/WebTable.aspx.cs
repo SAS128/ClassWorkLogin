@@ -20,7 +20,7 @@ namespace ClassWork_Login
             StringBuilder htmlStr = new StringBuilder();
             foreach (var item in yesData)
             {
-                htmlStr.Append(String.Format("<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td><td>{4}</td><td>{5}</td><td>{6}</td></tr>", item.Name, item.Login, item.Password, item.Phone, item.Email,item.CarNumber,item.CarTrable));
+                htmlStr.Append(String.Format("<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td><td>{4}</td><td>{5}</td><td>{6}</td></tr>", item.Name, item.Login, item.Password, item.Phone, item.Email,item.CarNumber,item.CarTable));
                 Response.Write(htmlStr);
             }
             return htmlStr.ToString();

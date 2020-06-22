@@ -87,13 +87,13 @@ namespace ClassWork_Login
         protected global::System.Web.UI.HtmlControls.HtmlInputText carnumber;
 
         /// <summary>
-        /// сarеrable control.
+        /// cartable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText сarеrable;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText cartable;
 
         /// <summary>
         /// willattend control.

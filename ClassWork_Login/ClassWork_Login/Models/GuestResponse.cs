@@ -9,8 +9,7 @@ namespace ClassWork_Login
         public string Name { get; set; }
         //--------------------------------------------------------------------------------------------
         [Required]
-        [StringLength(24, MinimumLength = 4, ErrorMessage = "Не допустимое имя!")]
-        [RegularExpression(@"^\<[:alpha:]$", ErrorMessage = "Начало логина должно начинаться с буквы")]
+   
         public string Login { get; set; }
         //--------------------------------------------------------------------------------------------
         [Required]
@@ -31,7 +30,7 @@ namespace ClassWork_Login
         //--------------------------------------------------------------------------------------------
         [Required]
 
-        public string CarTrable { get; set; }
+        public string CarTable { get; set; }
         //--------------------------------------------------------------------------------------------
         [Required]
         public bool? WillAttend { get; set; }
