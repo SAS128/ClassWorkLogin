@@ -5,6 +5,10 @@ namespace ClassWork_Login
     public class GuestResponse
     {
         [Required]
+
+        public string Name { get; set; }
+        //--------------------------------------------------------------------------------------------
+        [Required]
         [StringLength(24, MinimumLength = 4, ErrorMessage = "Не допустимое имя!")]
         [RegularExpression(@"^\<[:alpha:]$", ErrorMessage = "Начало логина должно начинаться с буквы")]
         public string Login { get; set; }
@@ -20,6 +24,17 @@ namespace ClassWork_Login
         [Required]
        
         public string Email { get; set; }
+        //--------------------------------------------------------------------------------------------
+        [Required]
+
+        public string CarNumber { get; set; }
+        //--------------------------------------------------------------------------------------------
+        [Required]
+
+        public string CarTrable { get; set; }
+        //--------------------------------------------------------------------------------------------
+        [Required]
+        public bool? WillAttend { get; set; }
         //--------------------------------------------------------------------------------------------
     }
 }

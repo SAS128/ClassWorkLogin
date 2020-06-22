@@ -70,6 +70,7 @@
     <Content Include="Style.css" />
     <Content Include="Web.config" />
     <Content Include="WebLogin.aspx" />
+    <Content Include="WebTable.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GuestResponse.cs" />
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="WebLogin.aspx.designer.cs">
       <DependentUpon>WebLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebTable.aspx.cs">
+      <DependentUpon>WebTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebTable.aspx.designer.cs">
+      <DependentUpon>WebTable.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

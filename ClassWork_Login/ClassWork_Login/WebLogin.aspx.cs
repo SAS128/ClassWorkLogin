@@ -14,12 +14,7 @@ namespace ClassWork_Login
         {
             if (IsPostBack)
             {
-                GuestResponse rsvp = new GuestResponse();
-                if (TryUpdateModel(rsvp, new FormValueProvider(ModelBindingExecutionContext)))
-                {
-                    ResponseRepository.GetRepository().AddResponse(rsvp);
-                  
-                }
+                        Response.Redirect("WebTable.aspx");
             }
         }
     }

@@ -33,6 +33,15 @@ namespace ClassWork_Login
         protected global::System.Web.UI.WebControls.ValidationSummary validationSummary;
 
         /// <summary>
+        /// name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText name;
+
+        /// <summary>
         /// login control.
         /// </summary>
         /// <remarks>
@@ -67,5 +76,32 @@ namespace ClassWork_Login
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText email;
+
+        /// <summary>
+        /// carnumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText carnumber;
+
+        /// <summary>
+        /// сarеrable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText сarеrable;
+
+        /// <summary>
+        /// willattend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect willattend;
     }
 }

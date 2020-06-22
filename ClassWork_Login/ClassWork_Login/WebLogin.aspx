@@ -13,6 +13,9 @@
             <h1>Регестрация</h1>
         </div>
         <asp:ValidationSummary ID="validationSummary" runat="server" ShowModelStateErrors="true" />
+          <div>
+            <label>Имя заказчика:</label><input type="text" id="name" runat="server"/>
+        </div>
         <div>
             <label>Логин:</label><input type="text" id="login" runat="server"/>
         </div>
@@ -24,6 +27,20 @@
         </div>
         <div>
             <label>Email:</label><input type="text" id="email" runat="server"/>
+        </div>
+          <div>
+            <label>Номер машины:</label><input type="text" id="carnumber" runat="server"/>
+        </div>
+          <div>
+            <label>Причина поломки:</label><input type="text" id="сarеrable" runat="server"/>
+        </div>
+        <div>
+              <label>Выберете мастера</label>
+            <select id="willattend" runat="server">
+                <option value="">Вася</option>
+                <option value="true">Бобр</option>
+                <option value="false">Стена</option>
+            </select>
         </div>
         <div>
             <button type="submit">Подтвердить</button>
