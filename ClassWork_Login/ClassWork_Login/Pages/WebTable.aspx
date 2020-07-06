@@ -22,7 +22,7 @@
             </tr>
         </thead>
         <tbody>
-           <%=GetPageData() %>
+           <%=GetPageData(true) %>
         </tbody>
     </table>
 </body>

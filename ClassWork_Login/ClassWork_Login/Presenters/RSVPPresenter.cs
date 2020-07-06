@@ -23,9 +23,9 @@ namespace ClassWork_Login.Presenters
         IResult IPresenter<GuestResponse>.GetResult(GuestResponse requestData)
         {
             repository.AddResponse(requestData);
-            if (!requestData.WillAttend.HasValue)
+            if (requestData.CarMan == null)
                 throw new ArgumentNullException("WillAttend не должно быть null");
-            if (requestData.WillAttend.Value)
+            if (requestData.CarMan != null)
                 return new RedirectResult(@"/Content/seeyou.html");
             else
                 return new RedirectResult(@"/Content/sorry.html");

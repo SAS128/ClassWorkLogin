@@ -33,7 +33,8 @@ namespace ClassWork_Login
         public string CarTable { get; set; }
         //--------------------------------------------------------------------------------------------
         [Required]
-        public bool? WillAttend { get; set; }
+        public string CarMan { get; set; }
         //--------------------------------------------------------------------------------------------
+        public bool? WillAttend { get; set; }
     }
 }

@@ -34,12 +34,14 @@
           <div>
             <label>Причина поломки:</label><input type="text" id="cartable" runat="server"/>
         </div>
-        <div>
-              <label>Выберете мастера</label>
+       <div>
+            <label>Имя мастера:</label><input type="text" id="carman" runat="server"/>
+        </div>
+          <div>
+            <label>Соглашаетесь с условиями процеуры</label>
             <select id="willattend" runat="server">
-                <option value="">Вася</option>
-                <option value="true">Бобр</option>
-                <option value="false">Стена</option>
+                <option value="true">Да</option>
+                <option value="false">Нет</option>
             </select>
         </div>
         <div>
